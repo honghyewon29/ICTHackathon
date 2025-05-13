@@ -1,0 +1,42 @@
+컴퓨터SW학과 교과 과정
+-------------------------------------------------------------------------------------------------------------------------
+학년	학기	학수번호	이수구분	교과목명	학점	시간(이론)	시간(실습)	과목구분	비고
+2	1	01765	전선	데이터통신 Data Communication	3	3	0	이론	
+2	1	02048	전선	디지털시스템응용및실험 Digital System Application & Experiment	3	2	2	이론/실습	
+2	1	03498	전선	선형대수학 Linear Algebra	3	3	0	이론	
+2	1	06994	전선	프로그래밍언어및실습 Programming Languaue and Practice	3	2	2	이론/실습	
+2	1	09040	전선	디지털영상처리 Digital Image Processing	3	3	0	이론	
+2	1	09657	전선	시스템프로그래밍 System Programming	3	3	0	이론	
+2	2	04152	전선	어셈블리어 Assembly Language	3	3	0	이론	
+2	2	03098	전선	비주얼언어및실습 Visual Language and Practice	3	2	2	이론/실습	
+2	2	08683	전선	리눅스시스템 Linux Systems	3	3	0	이론	
+2	2	09372	전선	컴퓨터교과교재연구및지도법 Advanced Introduction Method in Computer Education	3	3	0	이론	
+3	1	00191	전선	JAVA JAVA	3	2	2	이론/실습	
+3	1	02176	전선	마이크로프로세서응용 Microprocessor Applications	3	3	0	이론	
+3	1	03650	전선	소프트웨어공학 Software Engineering	3	3	0	이론	
+3	1	06993	전선	프로그래밍언어론 Programming Language	3	3	0	이론	
+3	1	08870	전선	임베디드하드웨어설계 Embedded Hardware Design	3	2	2	이론/실습	
+3	1	09371	전선	컴퓨터교육론 Education Theory of Computer	3	3	0	이론	
+3	1	10612	전선	임베디드소프트웨어실습 Embedded software design and experiment	3	2	2	이론/실습	
+3	2	04115	전선	알고리즘분석 Analysis of Algorithms	3	3	0	이론	
+3	2	01762	전선	데이터베이스 Database	3	3	0	이론	
+3	2	04963	전선	인터넷컴퓨팅 Internet Computing	3	3	0	이론	
+3	2	10615	전선	IOT 설계실습 IOT design and experiment	3	2	2	이론/실습	
+3	2	10614	전선	창업실무 Entrepreneurship and practice	3	3	0	이론	
+3	2	10613	전선	오토마타 Automata	3	3	0	이론	
+3	2	10576	전선	캡스톤디자인1 Capstone Design 1	3	3	0	이론	
+3	2	09373	전선	컴퓨터교과논리및논술 Computer Logic and Writing Skill	2	2	0	이론	
+3	2	05778	전선	정보처리기술 Information Processing	3	3	0	이론	
+4	1	10577	전선	캡스톤디자인2 Capstone Design 2	3	3	0	이론	
+4	1	10616	전선	캡스톤설계1 Capstone design 1	3	2	2	이론/실습	
+4	1	07922	전선	분산컴퓨팅 Distributed Computing	3	3	0	이론	
+4	1	06522	전선	컴파일러구성 Compiler Construction	3	3	0	이론	
+4	1	08872	전선	네트워크컴퓨팅 Network Computing	3	3	0	이론	
+4	1	09633	전선	졸업프로젝트 Graduation Project	3	3	0	이론	
+4	1	03855	전선	시스템분석및설계 System Analysis and Design	3	3	0	이론	
+4	1	04931	전선	인공지능 Artificial Intelligence	3	3	0	이론	
+4	2	06532	전선	컴퓨터과학특강 Special Topics in Computer Science	3	3	0	이론	
+4	2	08866	전선	자유전공 Special Topics in Chemical and Biochemical Engineering	3	3	0	이론	
+4	2	08877	전선	모바일소프트웨어설계 Mobile Software Design	3	2	2	이론/실습	
+4	2	10617	전선	캡스톤설계2 Capstone design 2	3	2	2	이론/실습	
+4	2	10468	전선	빅데이터정보검색 Information Retrieval	3	3	0	이론	
