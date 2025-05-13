@@ -1,0 +1,48 @@
+정보 통신 교과 과정
+---------------------------------------------------------------------------------------------------------------------
+학년	학기	학수번호	이수구분	교과목명	학점	시간(이론)	시간(실습)	과목구분	비고
+2	1	02053	전선	디지털논리설계 Digital Logic Design	3	3	0	이론	
+2	1	07697	전핵	회로이론 Electric Circuit Theory	3	3	0	이론	
+2	1	07892	전선	웹프로그래밍 Web Programming	3	3	0	이론	
+2	1	08366	전핵	신호및시스템 Signals and Systems	3	3	0	이론	
+2	1	08880	전선	기초전자회로실험 Basic Circuit Experiment	3	2	2	이론/실습	
+2	1	10627	전선	임베디드시스템기초실습 Introduction to Embedded Systems Design	3	2	2	이론/실습	
+2	1	10628	전선	공학수학1 Engineering Mathematics 1	3	3	0	이론	
+2	2	10629	전선	디지털논리설계실험 Digital Logic Circuit Lab	3	2	2	이론/실습	
+2	2	10469	전선	전산해석컴퓨팅 Computational analysis of computing	3	3	0	이론	
+2	2	09655	전선	객체지향프로그래밍 Object Oriented Programming	3	3	0	이론	
+2	2	08894	전선	알고리즘 Algorithm	3	3	0	이론	
+2	2	07695	전선	회로및시스템 Circuits and System	3	3	0	이론	
+2	2	05630	전선	전자기학 Electromagnetics	3	3	0	이론	
+2	2	10630	전선	공학수학2 Engineering Mathematics 2	3	3	0	이론	
+2	2	02049	전선	디지털신호처리 Digital Signal Processing	3	3	0	이론	
+3	1	09365	전선	공업교육론 Industrial Education	3	3	0	이론	
+3	1	08656	전선	전자회로1 Electronic Circuits(1)	3	3	0	이론	
+3	1	06754	전선	통신이론 Communication Theory	3	3	0	이론	
+3	1	06547	전선	컴퓨터네트워크 Computer Network	3	3	0	이론	
+3	1	03099	전선	비주얼프로그래밍 Visual Programming	3	3	0	이론	
+3	1	02240	전선	멀티미디어신호처리 Multimedia Signal Processing	3	3	0	이론	
+3	1	02168	전선	마이크로프로세서 Microprocessor	3	3	0	이론	
+3	1	10631	전선	전자통신실험 Electronic Communication Lab	3	2	2	이론/실습	
+3	2	02059	전선	디지털통신 Digital Communication	3	3	0	이론	
+3	2	02239	전선	멀티미디어시스템 Multimedia System	3	3	0	이론	
+3	2	08150	전선	마이크로컴퓨터실험 Microcomputer Lab.	3	2	2	이론/실습	
+3	2	08657	전선	전자회로2 Electronic Circuits(2)	3	3	0	이론	
+3	2	10632	전선	네트워크설계및실습 Network Design and Practice	3	3	0	이론	
+3	2	09657	전선	시스템프로그래밍 System Programming	3	3	0	이론	
+3	2	10576	전선	캡스톤디자인1 Capstone Design 1	3	3	0	이론	
+3	2	10584	전선	패턴인식 Pattern Recognition	3	3	0	이론	
+3	2	09366	전선	공업교과교재연구및지도법 Study of Teaching Methods for Industrial Curriculum	3	3	0	이론	
+4	1	06219	전선	집적회로 Integrated Circuits	3	3	0	이론	
+4	1	08884	전선	창의적공학설계1 Capstone Design 1	3	2	2	이론/실습	
+4	1	10634	전선	네트워크응용및프로그래밍 Network Programming	3	3	0	이론	
+4	1	10633	전선	로봇비젼 Robot Vision	3	3	0	이론	
+4	1	10616	전선	캡스톤설계1 Capstone design 1	3	2	2	이론/실습	
+4	1	10577	전선	캡스톤디자인2 Capstone Design 2	3	3	0	이론	
+4	1	08885	전선	임베디드시스템프로그래밍 Embedded System Programming	3	3	0	이론	
+4	2	10636	전선	지식재산의보호와관리 Intellectual Property Protection	3	3	0	이론	
+4	2	10635	전선	VLSI 설계 VLSI Design	3	3	0	이론	
+4	2	10617	전선	캡스톤설계2 Capstone design 2	3	2	2	이론/실습	
+4	2	09367	전선	공업교과논리및논술 Text Logics for Industrial Education and Essay	2	2			
+4	2	08886	전선	창의적공학설계2 Capstone Design 2	3	2	2	이론/실습	
+4	2	10637	전선	정보통신특강 Information Communication Prospect	3	3	0	이론	
