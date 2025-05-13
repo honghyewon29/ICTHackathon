@@ -1,0 +1,56 @@
+정보 보호 교과 과정
+--------------------------------------------------------------------------------------
+학년	학기	학수번호	이수구분	교과목명	학점	시간(이론)	시간(실습)	과목구분	비고
+2	1	04895	전선	이산구조론 Discrete Structure	3	3	0	이론	
+2	1	03498	전선	선형대수학 Linear Algebra	3	3	0	이론	
+2	1	02053	전선	디지털논리설계 Digital Logic Design	3	3	0	이론	
+2	1	07892	전선	웹프로그래밍 Web Programming	3	3	0	이론	
+2	1	10639	전선	자바 Java Programming	3	2	2	이론/실습	
+2	1	10058	전선	리눅스기초 linux basic	3	2	2	이론/실습	
+2	1	10484	전핵	현대암호론 cryptology	3	3	0	이론	
+2	1	10638	전선	C++ C++ Programming	3	2	2	이론/실습	
+2	1	09634	전선	정보보호개론 Information Security Overview	3	3	0	이론	
+2	2	09635	전선	현대암호응용 Application of the contemporary cryptography	3	3	0	이론	
+2	2	07806	전선	확률과통계 Probabilities & Statistics	3	3	0	이론	
+2	2	01762	전선	데이터베이스 Database	3	3	0	이론	
+2	2	09639	전선	고급자바프로그래밍 Advanced JAVA Programming	3	3	0	이론	
+2	2	09658	전선	웹기반응용과보안 Web-Based Applications and Security	3	3	0	이론	
+3	1	06547	전선	컴퓨터네트워크 Computer Network	3	3	0	이론	
+3	1	09640	전선	컨텐츠관리 Contents Management	3	3	0	이론	
+3	1	09642	전선	데이터베이스보안 Database System Security	3	3	0	이론	
+3	1	09643	전선	모바일프로그래밍 Mobile Programming	3	2	2	이론/실습	
+3	1	09657	전선	시스템프로그래밍 System Programming	3	2	2	이론/실습	
+3	1	10642	전선	임베디드시스템응용및프로그래밍 applied embedded system programming	3	2	2	이론/실습	
+3	1	10488	전선	악성코드분석 reverse engineering	3	2	2	이론/실습	
+3	1	10629	전선	디지털논리설계실험 Digital Logic Circuit Lab	3	2	2	이론/실습	
+3	1	10640	전선	정보보안관리1 Security Management 1	3	3	0	이론	
+3	1	10641	전선	리눅스응용 Applied Linux	3	2	2	이론/실습	
+3	1	10486	전선	데이터베이스설계및관리 database	3	3	0	이론	
+3	2	08371	전선	시스템보안 System Security	3	2	2	이론/실습	
+3	2	08893	전선	소프트웨어설계 Software Design	3	3	0	이론	
+3	2	10645	전선	시스템보안프로젝트 System Security Project	3	2	2	이론/실습	
+3	2	10644	전선	정보보안산학협력특론1 Special Topics on Security for I-U Cooperation 1	3	3	0	이론	
+3	2	10643	전선	정보보안관리2 Security Management 2	3	3	0	이론	
+3	2	10497	전선	모바일보안프로젝트 mobile security project	3	2	2	이론/실습	
+3	2	10496	전선	데이터베이스보안프로젝트 Database Security project	3	2	2	이론/실습	
+3	2	10495	전선	인터넷보안프로젝트 Internet security project	3	2	2	이론/실습	
+3	2	10487	전선	침해사고대응 security penetration test	3	2	2	이론/실습	
+3	2	09659	전선	모바일컴퓨팅및보안 Security in Mobile Computing Environment	3	3	0	이론	
+3	2	09650	전선	무선네트워크 Wireless Networks	3	3	0	이론	
+3	2	09649	전선	크라우드컴퓨팅 Cloud Computing	3	3	0	이론	
+3	2	09646	전선	네트워크보안솔루션 프로젝트 Network Security Solution Project	3	2	2	이론/실습	
+3	2	09645	전선	IT응용서비스보안 프로젝트 Project for IT Application Service Security	3	2	2	이론/실습	
+3	2	08894	전핵	알고리즘 Algorithm	3	2	2	이론/실습	
+4	1	10493	전선	보안프로그래밍 secure coding	3	2	2	이론/실습	
+4	1	08677	전선	네트워크보안 Network Security System	3	2	2	이론/실습	
+4	1	10221	전선	정보보안산학협력특론2 Special Topics on Security for I-U Cooperation2	3	3	0	이론	
+4	1	10490	전선	ICT학점이수인턴제1 ICT Internship1	3	3	0	이론	
+4	1	10647	전선	모바일운영체제 Mobile Operating System	3	3	0	이론	
+4	1	10646	전선	사물인터넷보안 The securing the Internet of Things	3	3	0	이론	
+4	1	10585	전선	네트워크프로그래밍 Network Programming	3	2	2	이론/실습	
+4	1	10576	전선	캡스톤디자인1 Capstone Design 1	3	3	0	이론	
+4	1	10492	전선	디지털포렌직스 digital forensics	3	2	2	이론/실습	
+4	2	10577	전선	캡스톤디자인2 Capstone Design 2	3	3	0	이론	
+4	2	10648	전선	지적재산의보호와관리 Intellectual Property Rights Protects and management	3	3	0	이론	
+4	2	10429	전선	기술과창업 Technology and Entrepreneurship	3	3	0	이론	
+4	2	10494	전선	ICT학점이수인턴제2 ICT Internship2	3	3	0	이론	

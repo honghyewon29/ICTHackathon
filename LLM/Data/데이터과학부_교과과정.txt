@@ -1,0 +1,44 @@
+데이터과학부 교과 과정
+-------------------------------------------------------------------
+학년	학기	학수번호	이수구분	교과목명	학점	시간(이론)	시간(실습)	과목구분	비고
+1	1	10967	전교	데이터사이언스입문 Introduction to data science	3	3	0	이론	
+1	1	09969	전핵	통계학1 Elementary Statistics 1	3	3	0	이론	
+1	1	03747	전교	수학1 Mathematics(1)	3	3	0	이론	
+1	2	10606	전교	소프트웨어적사고 Computational thinking	3	3	0	이론	
+1	2	09971	전핵	통계학2 Elementary Statistics 2	3	3	0	이론	
+1	2	11415	전취	전공진로세미나1 Major Career Seminar 1	1	1	0	이론	
+1	2	03751	전교	수학2 Mathematics(2)	3	3	0	이론	
+2	1	10954	전선	R언어 R Software Language	3	3	0	이론	
+2	1	04895	전선	이산구조론 Discrete Structure	3	3	0	이론	
+2	1	11287	전핵	딥러닝1 Deep Learning	3	3	0	이론	
+2	1	05949	전선	조사방법론 Research Methods	3	3	0	이론	
+2	1	03498	전핵	선형대수학 Linear Algebra	3	3	0	이론	
+2	1	10997	전선	웹크롤자료분석 Web Crawl Data Analysis	3	3	0	이론	
+2	1	11009	전선	파이썬데이터분석 Data Analysis Using Python	3	3	0	이론	
+2	2	01760	전선	데이터구조 Data Structure	3	3	0	이론	
+2	2	07590	전선	확률론 Probability Theory	3	3	0	이론	
+2	2	11288	전선	딥러닝2 Deep Learning2	3	3	0	이론	
+2	2	11416	전취	전공진로세미나2 Major Career Seminar 2	1	1	0	이론	
+2	2	10607	전핵	선형대수학과응용 Linear Algebra and its Applications	3	3	0	이론	
+2	2	10953	전선	R데이터분석 Data Analysis Using R	3	3	0	이론	
+2	2	10968	전선	데이터시각화 Data Visualization	3	3	0	이론	
+3	1	01762	전선	데이터베이스 Database	3	3	0	이론	
+3	1	10955	전선	공공데이터분석 Public Data Analysis	3	3	0	이론	
+3	1	11473	전선	회귀분석 Regression Analysis	3	3	0	이론	
+3	1	10977	전핵	머신러닝1 Machine Learning 1	3	3	0	이론	
+3	1	10970	전선	딥러닝응용1 Applied Deep Learning 1	3	3	0	이론	
+3	2	11417	전취	전공진로세미나3 Major Career Seminar 3	1	1	0	이론	
+3	2	11406	전선	응용통계 Applied Statistics	3	3	0	이론	
+3	2	11532	전선	라이프케어빅데이터분석 Life Care Big Data Analysis	3	3	0	이론	
+3	2	10978	전선	머신러닝2 Machine Learning 2	3	3	0	이론	
+3	2	10984	전선	베이지안분석 Bayesian statistics	3	3	0	이론	
+3	2	10971	전선	딥러닝응용2 Applied Deep Learning 2	3	3	0	이론	
+3	2	10989	전선	빅데이터분석 Big Data Analysis	3	3	0	이론	
+3	2	10990	전선	빅데이터플랫폼 Big Data Platform	3	3	0	이론	
+4	1	01768	전선	데이터마이닝 Data Mining	3	3	0	이론	
+4	1	08894	전선	알고리즘 Algorithm	3	3	0	이론	
+4	1	10576	전선	캡스톤디자인1 Capstone Design 1	3	3	0	이론	
+4	1	11440	전선	통계적추론 Statistical Inference	3	3	0	이론	
+4	1	11533	전선	금융데이터분석 Financial Data Analysis	3	3	0	이론	
+4	2	10577	전선	캡스톤디자인2 Capstone Design 2	3	3	0	이론	
+4	2	03815	전선	시계열분석 Time Series Analysis	3	3	0	이론	
