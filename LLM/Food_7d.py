@@ -4,7 +4,7 @@ import schedule
 import time
 import os
 
-OUTPUT_FILE = "Data/식단표.txt"
+OUTPUT_FILE = "LLM\Data\식단표.txt"
 
 def fetch_meal_info(menuno, place_name, wanted_meals):
     url = f"https://www.suwon.ac.kr/index.html?menuno={menuno}"
