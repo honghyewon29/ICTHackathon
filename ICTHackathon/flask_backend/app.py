@@ -1,4 +1,3 @@
-# app.py
 from flask import Flask
 from flask_cors import CORS
 from api.chat_api import chat_blueprint
