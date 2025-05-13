@@ -1,1 +1,1 @@
-# ICTHackathon
+Hackathon
