@@ -21,17 +21,22 @@ context_boilerplate = """
 하계방학은 1학기 종강 후 시작되며, 동계방학은 2학기 종강 후 시작됩니다.
 """
 
+
+
 def format_docs_with_boilerplate(docs):
-    context = "\n\n".join([d.page_content for d in docs])
-    return context_boilerplate + "\n\n" + context
+    context_from_docs = "\n\n".join([d.page_content for d in docs])
+    return context_boilerplate + "\n\n" + context_from_docs
 
 def ask_with_rag(user_input):
     normalized = normalize_question(user_input)
+    print(f"📌 정형화된 질문: {normalized}")
     vectorstore = load_vectorstore()
     retriever = get_multiquery_retriever(vectorstore)
     retrieved_docs = retriever.invoke(normalized)
-
+    print("🔍 검색된 문서 수:", len(retrieved_docs))
+    
     full_context = format_docs_with_boilerplate(retrieved_docs)
     prompt = get_prompt()
-    messages = prompt.format_messages(context=full_context, question=user_input)
-    return generate_response(messages).strip()
+    messages = prompt.format_messages(context=full_context, question=normalized)
+    print("messages:", user_input)
+    return generate_response(messages).content.strip() 

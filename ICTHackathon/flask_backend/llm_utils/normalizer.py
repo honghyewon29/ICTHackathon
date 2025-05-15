@@ -1,10 +1,11 @@
 from langchain_openai import ChatOpenAI
+from config import OPENAI_API_KEY
 
 
 normalizer_llm = ChatOpenAI(
     model="gpt-3.5-turbo",
     temperature=0,
-    openai_api_key="sk-여기에_당신의_API_KEY"
+    openai_api_key=OPENAI_API_KEY
 )
 
 
