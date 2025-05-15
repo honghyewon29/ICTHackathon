@@ -8,7 +8,6 @@ import openai
 from openai import OpenAI
 
 # flask_backend/api/app.py
-
 import sys
 import os
 import json # delete_notice에서 첨부파일 처리를 위해 추가
@@ -288,12 +287,13 @@ def chat():
 
 # ✅ 실행: 여기서만 학습시키기
 if __name__ == '__main__':
-    
+
     from llm_utils.embedding import load_and_split_documents
     from llm_utils.vector_store import initialize_vectorstore
 
     docs = load_and_split_documents()
     initialize_vectorstore(docs)
+    
 
     print("DEBUG: Entering `if __name__ == '__main__'` block to start development server.")
     # 로그 레벨 설정 (선택 사항, 더 자세한 로그를 보고 싶을 경우)
