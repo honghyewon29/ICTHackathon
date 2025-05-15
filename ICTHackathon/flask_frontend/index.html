@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>지소융 챗봇</title>
+  <script src="https://cdn.jsdelivr.net/npm/vue@3.4.21/dist/vue.global.prod.js"></script>
+  <style>
+    body { font-family: sans-serif; margin: 0; padding: 20px; background: #f5f5f5; }
+    .chat-container {
+      max-width: 600px;
+      margin: auto;
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    .messages {
+      max-height: 400px;
+      overflow-y: auto;
+      margin-bottom: 15px;
+    }
+    .message {
+      display: flex;
+      margin-bottom: 10px;
+    }
+    .message.bot {
+      justify-content: flex-start;
+    }
+    .message.user {
+      justify-content: flex-end;
+    }
+    .bubble {
+      padding: 10px 15px;
+      border-radius: 20px;
+      max-width: 70%;
+      line-height: 1.4;
+    }
+    .bot .bubble {
+      background-color: #e0e0e0;
+      color: #333;
+    }
+    .user .bubble {
+      background-color: #8ecae6;
+      color: white;
+    }
+    .input-box {
+      display: flex;
+      gap: 10px;
+    }
+    input {
+      flex: 1;
+      padding: 10px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      background: #023e8a;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #0077b6;
+    }
+  </style>
+</head>
+<body>
+  <div id="app" class="chat-container">
+    <h2 style="text-align:center;">💬 수원대 지소융 챗봇</h2>
+    <div class="messages" ref="chatScroll">
+      <div v-for="(msg, index) in messages" :key="index" :class="['message', msg.role]">
+        <div class="bubble" v-html="formatText(msg.text)"></div>
+      </div>
+    </div>
+    <div class="input-box">
+      <input v-model="userInput" @keyup.enter="sendMessage" placeholder="질문을 입력하세요..." />
+      <button @click="sendMessage">보내기</button>
+    </div>
+  </div>
+
+  <script>
+    const { createApp, nextTick } = Vue;
+
+    createApp({
+      data() {
+        return {
+          userInput: '',
+          messages: []
+        };
+      },
+      methods: {
+        async sendMessage() {
+          const question = this.userInput.trim();
+          if (!question) return;
+
+          // 사용자 메시지 추가
+          this.messages.push({ role: 'user', text: question });
+          this.userInput = '';
+          await nextTick(); // DOM 업데이트 후 스크롤
+
+          this.scrollToBottom();
+
+          try {
+            const res = await fetch("http://localhost:5000/api/chat/ask", {
+              method: "POST",
+              headers: {
+                "Content-Type": "application/json"
+              },
+              body: JSON.stringify({ message: question })
+            });
+            const data = await res.json();
+            console.log(data);
+            console.log(question);
+            // 챗봇 응답 추가
+            this.messages.push({ role: 'bot', text: data.answer });  // ✅
+            await nextTick();
+            this.scrollToBottom();
+
+          } catch (error) {
+            this.messages.push({ role: 'bot', text: "⚠️ 오류: " + error.message });
+            await nextTick();
+            this.scrollToBottom();
+          }
+        },
+        scrollToBottom() {
+          const box = this.$refs.chatScroll;
+          box.scrollTop = box.scrollHeight;
+        },
+        formatText(text) {
+          return text
+            .replace(/\n/g, "<br>")
+            .replace(/(\d+)\.\s?/g, "<br><strong>$1.</strong> ");
+        }
+      }
+    }).mount('#app');
+  </script>
+</body>
+</html>
