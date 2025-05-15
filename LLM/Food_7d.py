@@ -72,6 +72,8 @@ schedule.every().sunday.at("00:00").do(fetch_new_notices)
 print("스케줄러 실행 중...")
 
 
+fetch_new_notices()
+
 while True:
     schedule.run_pending()
     time.sleep(1)
