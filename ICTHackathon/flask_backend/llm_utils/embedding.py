@@ -2,7 +2,7 @@
 import os
 from glob import glob
 from langchain_community.document_loaders import TextLoader
-from langchain_text_splitters import CharacterTextSplitter
+from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 def load_and_split_documents():
     txt_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "../../../LLM/Data"))
@@ -20,8 +20,8 @@ def load_and_split_documents():
     print("📄 로딩 완료, 문서 수:", len(docs))
 
     # ✅ splitter를 여기서 정의해줘야 함!
-    text_splitter = CharacterTextSplitter(
-        separator=r"[.!?]\s+",
+    text_splitter = RecursiveCharacterTextSplitter(
+        separators=["\n\n", "\n", ".", "!", "?", " ", ""],
         chunk_size=1000,
         chunk_overlap=200,
         length_function=len,

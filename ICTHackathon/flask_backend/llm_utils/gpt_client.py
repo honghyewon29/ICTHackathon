@@ -13,4 +13,6 @@ llm = ChatOpenAI(
 
 
 def generate_response(messages):
+    response = llm.invoke(messages)
+    print("🧠 GPT 응답 원본:", response)
     return llm.invoke(messages)
