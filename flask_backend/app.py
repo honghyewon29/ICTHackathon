@@ -29,8 +29,8 @@ from flask_jwt_extended import (
 
 # --- 블루프린트 임포트 ---
 # 실제 파일 경로에 맞게 수정해주세요
-# from api.chat_api import chat_blueprint
-# from api.rag_api import rag_blueprint
+from api.chat_api import chat_blueprint
+from api.rag_api import rag_blueprint
 
 # --- DB 및 모델 임포트 ---
 from setting.db_connect import init_db, db # init_db 함수와 db 객체
@@ -117,8 +117,8 @@ def check_if_token_in_blacklist_callback(jwt_header, jwt_payload):
 # --- JWT 블랙리스트 끝 ---
 
 # --- 블루프린트 등록 ---
-# app.register_blueprint(chat_blueprint, url_prefix="/api/chat")
-# app.register_blueprint(rag_blueprint, url_prefix="/api/rag")
+app.register_blueprint(chat_blueprint, url_prefix="/api/chat")
+app.register_blueprint(rag_blueprint, url_prefix="/api/rag")
 # (선택) 사용자 인증 및 공지사항 API 라우트를 위한 블루프린트 구성 권장
 # from api.auth_routes import auth_bp
 # app.register_blueprint(auth_bp, url_prefix="/api/auth")
