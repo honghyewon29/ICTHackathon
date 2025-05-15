@@ -1,4 +1,4 @@
-# llm_utils/prompt_template.py
+#prompt_template.py
 from langchain_core.prompts import ChatPromptTemplate
 
 template = """[지침]

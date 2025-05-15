@@ -1,3 +1,4 @@
+# vectorstore.py
 from langchain_openai import OpenAIEmbeddings
 from langchain_community.vectorstores import Chroma
 from config import LANGCHAIN_API_KEY
