@@ -113,12 +113,12 @@
               body: JSON.stringify({ message: question })
             });
             const data = await res.json();
-            console.log(data);
             console.log(question);
             // 챗봇 응답 추가
             this.messages.push({ role: 'bot', text: data.answer });  // ✅
             await nextTick();
             this.scrollToBottom();
+            console.log(data.answer);
 
           } catch (error) {
             this.messages.push({ role: 'bot', text: "⚠️ 오류: " + error.message });
