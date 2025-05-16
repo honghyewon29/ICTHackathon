@@ -113,6 +113,7 @@
               body: JSON.stringify({ message: question })
             });
             const data = await res.json();
+            
             console.log(question);
             // 챗봇 응답 추가
             this.messages.push({ role: 'bot', text: data.answer });  // ✅

@@ -284,6 +284,10 @@ def chat():
     except Exception as e:
         return jsonify({"response": f"⚠️ GPT 오류: {str(e)}"}), 500
 
+@app.route('/ping')
+def ping():
+    return jsonify({"status": "ok"})
+
 
 # ✅ 실행: 여기서만 학습시키기
 if __name__ == '__main__':
@@ -301,4 +305,4 @@ if __name__ == '__main__':
     # logging.basicConfig(level=logging.INFO)
     # app.logger.setLevel(logging.INFO)
     
-    app.run(debug=True, host='0.0.0.0', port=5000)
+    app.run(debug=True, host='0.0.0.0', port=8080)
