@@ -292,7 +292,7 @@ if __name__ == '__main__':
     from llm_utils.vector_store import initialize_vectorstore
 
     docs = load_and_split_documents()
-    initialize_vectorstore(docs)
+    # initialize_vectorstore(docs)
     
 
     print("DEBUG: Entering `if __name__ == '__main__'` block to start development server.")
