@@ -266,27 +266,21 @@ print("DEBUG: Notice routes defined.")
 
 
 
+from services.rag_service import ask_with_rag  # 꼭 상단에 import!
+
 @app.route('/chat_api', methods=['POST'])
 def chat():
     data = request.json
     user_message = data.get("message", "")
-
+    print(f"DEBUG: Received user message: {user_message}")
     try:
-        response = client.chat.completions.create(
-            model="gpt-4o",
-            messages=[
-                {"role": "system", "content": "당신은 수원대학교 지능형SW융합대학 안내 챗봇입니다."},
-                {"role": "user", "content": user_message}
-            ]
-        )
-        answer = response.choices[0].message.content.strip()
-        return jsonify({"response": answer})
+        answer = ask_with_rag(user_message)
+        print("DEBUG: GPT 응답:", answer)
+        return jsonify({"answer": answer})
     except Exception as e:
-        return jsonify({"response": f"⚠️ GPT 오류: {str(e)}"}), 500
+        print("❌ GPT 처리 오류:", e)
+        return jsonify({"answer": f"⚠️ GPT 오류: {str(e)}"}), 500
 
-@app.route('/ping')
-def ping():
-    return jsonify({"status": "ok"})
 
 
 # ✅ 실행: 여기서만 학습시키기
@@ -305,4 +299,4 @@ if __name__ == '__main__':
     # logging.basicConfig(level=logging.INFO)
     # app.logger.setLevel(logging.INFO)
     
-    app.run(debug=True, host='0.0.0.0', port=8080)
+    app.run(debug=True, host='0.0.0.0', port=5000)
