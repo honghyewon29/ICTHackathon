@@ -1,16 +1,12 @@
 # vectorstore.py
 from langchain_openai import OpenAIEmbeddings
 from langchain_community.vectorstores import Chroma
-from config import LANGCHAIN_API_KEY
-
+from llm_utils.embedding import get_korean_embedding_model
 import os
 
 persist_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "../../../LLM/chroma_db"))
 
-embeddings_model = OpenAIEmbeddings(
-    model="text-embedding-3-small",
-    api_key=LANGCHAIN_API_KEY
-)
+embeddings_model = get_korean_embedding_model()
 
 vectorstore = None
 

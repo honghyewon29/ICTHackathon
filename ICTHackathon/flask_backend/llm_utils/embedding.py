@@ -1,8 +1,9 @@
-# embedding.py
 import os
 from glob import glob
 from langchain_community.document_loaders import TextLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
+from langchain_huggingface import HuggingFaceEmbeddings
+
 
 def load_and_split_documents():
     txt_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "../../../LLM/Data"))
@@ -19,7 +20,6 @@ def load_and_split_documents():
 
     print("📄 로딩 완료, 문서 수:", len(docs))
 
-    # ✅ splitter를 여기서 정의해줘야 함!
     text_splitter = RecursiveCharacterTextSplitter(
         separators=["\n\n", "\n", ".", "!", "?", " ", ""],
         chunk_size=1000,
@@ -32,3 +32,13 @@ def load_and_split_documents():
     print("🧩 분할된 청크 수:", len(chunks))
 
     return chunks
+
+# embedding.py
+from langchain_huggingface import HuggingFaceEmbeddings
+
+# ✅ 앱 시작 시 단 한 번만 로딩됨
+print("🧠 한국어 특화 KoSimCSE 임베딩 모델 로드 중...")
+embedding_model = HuggingFaceEmbeddings(model_name="jhgan/ko-sbert-nli")
+
+def get_korean_embedding_model():
+    return embedding_model
