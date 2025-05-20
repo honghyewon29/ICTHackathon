@@ -1,0 +1,42 @@
+미디어 SW 학과 교과 과정
+학년	학기	학수번호	이수구분	교과목명	학점	시간(이론)	시간(실습)	과목구분	비고
+2	1	06994	전선	프로그래밍언어및실습 Programming Languaue and Practice	3	2	2	이론/실습	
+2	1	06544	전선	컴퓨터그래픽스 Computer Graphics	3	3	0	이론	
+2	1	04686	전선	웹디자인 Web Design	3	3	0	이론	
+2	1	03498	전선	선형대수학 Linear Algebra	3	3	0	이론	
+2	1	02239	전선	멀티미디어시스템 Multimedia System	3	3	0	이론	
+2	1	08893	전선	소프트웨어설계 Software Design	3	3	0	이론	
+2	1	09040	전선	디지털영상처리 Digital Image Processing	3	3	0	이론	
+2	1	10618	전선	미디어정보처리 Media Information Processing	3	3	0	이론	
+2	2	01765	전선	데이터통신 Data Communication	3	3	0	이론	
+2	2	03098	전선	비주얼언어및실습 Visual Language and Practice	3	2	2	이론/실습	
+2	2	08894	전선	알고리즘 Algorithm	3	3	0	이론	
+2	2	09116	전선	IT표준 IT Standard	3	3	0	이론	
+2	2	10498	전선	캐릭터애니메이션 Character Animation	3	3	0	이론	
+2	2	10506	전선	게임프로그래밍 Game Programming	3	3	0	이론	
+3	1	08667	전선	컴퓨터애니메이션 Computer Animation	3	3	0	이론	
+3	1	08146	전선	3D그래픽스 3D Graphics	3	3	0	이론	
+3	1	07892	전선	웹프로그래밍 Web Programming	3	3	0	이론	
+3	1	01762	전선	데이터베이스 Database	3	3	0	이론	
+3	1	00191	전선	JAVA JAVA	3	2	2	이론/실습	
+3	1	10619	전선	컴퓨터비전 Computer Vision	3	3	0	이론	
+3	1	10620	전선	소프트웨어프로젝트1 Software Project I	3	3	0	이론	
+3	2	08384	전선	디지털신호및사운드처리 Digital Signal & Sound Processing	3	3	0	이론	
+3	2	08145	전선	가상현실 Virtual Reality	3	3	0	이론	
+3	2	08389	전선	컨텐츠제작프로젝트 Contents Project	3	3	0	이론	
+3	2	08898	전선	웹정보시스템 Web Information Systems	3	3	0	이론	
+3	2	10576	전선	캡스톤디자인1 Capstone Design 1	3	3	0	이론	
+3	2	10621	전선	소프트웨어프로젝트2 Software Project II	3	3	0	이론	
+3	2	10622	전선	애니메이션제작 Animation Production	3	3	0	이론	
+4	1	08873	전선	캡스톤설계 Capstone Design	3	3	0	이론	
+4	1	03650	전선	소프트웨어공학 Software Engineering	3	3	0	이론	
+4	1	09633	전선	졸업프로젝트 Graduation Project	3	3	0	이론	
+4	1	10623	전선	소프트웨어특강1 Special Topics in Software I	3	3	0	이론	
+4	1	10577	전선	캡스톤디자인2 Capstone Design 2	3	3	0	이론	
+4	1	10512	전선	인간과컴퓨터상호작용 Human Computer Interaction	3	3	0	이론	
+4	1	09643	전선	모바일프로그래밍 Mobile Programming	3	3	0	이론	
+4	2	10625	전선	융합소프트웨어기술 Software Integration Technology	3	3	0	이론	
+4	2	10624	전선	소프트웨어특강2 Special Topics in Software II	3	3	0	이론	
+4	2	10585	전선	네트워크프로그래밍 Network Programming	3	3	0	이론	
+4	2	04931	전선	인공지능 Artificial Intelligence	3	3	0	이론	
+4	2	10626	전선	모바일응용 Mobile applications	3	3	0	이론	

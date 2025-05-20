@@ -1,0 +1,9 @@
+1. 수강신청 → https://sugang.suwon.ac.kr/
+2. 재학생 → /index.html?menuno=2162
+3. 교직원 → /index.html?menuno=2163
+4. 예비수원인 → /index.html?menuno=2164
+5. 동문&방문객 → /index.html?menuno=2165
+6. 주요서비스 → /index.html?menuno=2166
+7. 포털 바로가기 → http://portal.suwon.ac.kr/enview/
+8. 주요서비스 → /index.html?menuno=2877
+9. TOP → #
